@@ -69,6 +69,8 @@ git init
 
 ### Usage
 
+Run the Meteor:
+
 ```
 meteor
 ```
