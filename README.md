@@ -1,8 +1,10 @@
-# How to make the Meteor consume less CPU and RAM
+# ☄ Meteor + 🚀 µWebSockets
+
+## How to make the Meteor consume less CPU and RAM
 
 > Use `stream-server-uws`
 
-See: https://github.com/meteor/meteor/pull/10120
+See also: https://github.com/meteor/meteor/pull/10120
  
 ## Introduction
 
@@ -75,8 +77,8 @@ meteor
 
 ## Thanks
 
-* [Alex Hultman][a], author of µWebSockets.
-* [Dmitrii Goriunov][d], developer of ClusterWS.
+* [Alex Hultman][a], author of µWebSockets;
+* [Dmitrii Goriunov][d], developer of ClusterWS;
 * you.
 
 [Sergey N][mrauhu]
