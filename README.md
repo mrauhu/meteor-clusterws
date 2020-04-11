@@ -56,7 +56,7 @@ git init
     ```bash
     git submodule add https://github.com/mrauhu/ddp-server packages/ddp-server
     git submodule add https://github.com/mrauhu/disable-sockjs packages/disable-sockjs
-    git submodule add https://github.com/mrauhu/socket-stream-client socket-stream-client
+    git submodule add https://github.com/mrauhu/socket-stream-client packages/socket-stream-client
     git submodule add https://github.com/mrauhu/stream-server packages/stream-server
     git submodule add https://github.com/mrauhu/stream-server-uws packages/stream-server-uws
     ```
