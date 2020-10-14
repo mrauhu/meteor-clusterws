@@ -1,4 +1,4 @@
-# ☄ Meteor + 🚀 µWebSockets
+# ☄ Meteor + 🚀 ClusterWS
 
 ## How to make the Meteor consume less CPU and RAM
 
@@ -21,10 +21,8 @@ The disadvantage it is eating CPU and RAM, and with a large number of DDP connec
 [ws]: https://caniuse.com/websockets
 
 This solution based on the ClusterWS/[cWS][c] — C++ WebSocket implementation for Node.js.
-It is a fork of the [µWebSockets v0.14][u] a.k.a. `uws`.
 
 [c]: https://github.com/ClusterWS/cWS
-[u]: https://github.com/uNetworking/uWebSockets/tree/v0.14
 
 
 ## How to use it now
@@ -61,7 +59,7 @@ git init
     git submodule add https://github.com/mrauhu/stream-server-uws packages/stream-server-uws
     ```
 
-3. Enable Stream Server with the `@clusterws/cws`, fork of the `uws`:
+3. Enable Stream Server with the `@clusterws/cws`:
 
     ```bash
     meteor add stream-server-uws
@@ -79,13 +77,11 @@ meteor
 
 ## Thanks
 
-* [Alex Hultman][a], author of µWebSockets;
 * [Dmitrii Goriunov][d], developer of ClusterWS;
 * you.
 
 [Sergey N][mrauhu]
 
-[a]: https://github.com/alexhultman
 [d]: https://github.com/goriunov
 [mrauhu]: https://github.com/mrauhu
 
